@@ -108,7 +108,6 @@ Nếu đưa eval vào train, model đã thấy ảnh đó nên chỉ số trên 
 | Gold QC | F1 0.545, FP rất cao | Vẽ box gold/box của em lên ảnh để tìm nguyên nhân | Rework 1 xóa box nhỏ ở xa, F1 0.726 |
 | Gold QC | Nhầm lớp theo vòng bus→van, van→truck, truck→bus | Mở ảnh đối chiếu, thấy xe buýt lớn bị gold ghi `van` | Báo giảng viên, chưa đổi nhãn |
 | Colab | Tải lại trang làm mất phiên chạy và kết quả | Chạy lại toàn bộ, không tải lại trang, tải `day2_colab_outputs.zip` ngay sau khi chạy | Có đủ metrics và ảnh dự đoán |
-| Nộp bài | Quá hạn 11:59 ngày 10/11 | | |
 
 ## 7. Tự đánh giá theo rubric
 
